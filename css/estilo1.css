@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos para la cabecera */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.logo img {
+    height: 50px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+    color: #f0a500;
+}
+
+section {
+    padding: 50px 0;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    transition: all 0.5s ease;
+}
+
+
+
+/* Sección de Introducción */
+#intro {
+    background-color: #3498db; /* Color azul */
+}
+
+/* Sección de Servicios */
+#servicios {
+    background-color: #2ecc71; /* Color verde */
+}
+
+#servicios ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#servicios ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Sección Acerca de Nosotros */
+#nosotros {
+    background-color: #e74c3c; /* Color rojo */
+}
+
+/* Sección de Contacto */
+#contacto {
+    background-color: #f39c12; /* Color naranja */
+}
+
+html {
+    scroll-behavior: smooth;
+}
